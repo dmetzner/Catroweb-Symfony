@@ -40,7 +40,7 @@ jobs:
   #
   synchronize-with-crowdin:
     # Only should run on the main repo. (Running without the secrets would result in a fail anyway!)
-    if: github.repository == 'Catrobat/Catroweb'
+#    if: github.repository == 'Catrobat/Catroweb'
 
     name: Synchronize Crowdin Translations
     runs-on: ubuntu-latest
